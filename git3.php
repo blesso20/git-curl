@@ -6,7 +6,7 @@ $dbname = "store_data";
 
 $conn = new mysqli($servername, $username, $password, $dbname );
 if(!$conn){
-    die("Database unable to conect".$conn->connect_error);
+    die("Database was unable to conect please try again".$conn->connect_error);
 }
 else{
     echo "Database connected sucessfully <br/>";
