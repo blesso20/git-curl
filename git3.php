@@ -19,7 +19,7 @@ $sql = "CREATE TABLE starwar2 (ID int NOT NULL AUTO_INCREMENT, Name text, API te
 if($conn->query($sql) ===TRUE){
     echo "New table has been created successfully <br/>";
 }else{
-    echo "faied to create new table. $conn->connect_error";
+    echo "faied to create new table please try again. $conn->connect_error";
 }
 
 // initiate cURL
